@@ -1,15 +1,18 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+/*Customizes background color*/
 h1{
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 45px;
 }
+/*Customizes the heading of the services page*/
 *{
     margin: 0;
     padding: 0;
 }
+/*No outside spacing or inside spacing*/
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -17,27 +20,22 @@ ul{
     margin: 0;
     padding: 0;
 }
+/*Customizes the nav bar*/
 li{
     float: left;
 }
+/*Puts all the words on the nav bar next to eachother*/
 li a{
     text-decoration: none;
     color: white;
     padding: 14px 16px;
     display: block;
 }
+/*Customizes the words on the nav bar*/
 li a:hover{
     color: grey;
 }
-p{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
-    font-size: 20px;
-    color: white;
-}
+/*Changes the color of the words on the nav bar to grey when you hover over it*/
 .Products{
     position: relative;
     display: flex;
@@ -45,29 +43,18 @@ p{
     justify-content: center;
     top: 50px;
 }
+/*Customizes the distance of the service images*/
 .Product{
     width: 250px;
     border: 1px solid black;
     padding: 20px;
     text-align: center;
-
 }
+/*Customizes the image sizes*/
 .Product img{
     width: 100%;
     max-height: 400px;
     object-fit: cover;
     top: 100px;
-
 }
-.Product h2{
-    color: black;
-    margin-top: 10px;
-}
-.Product p{
-    color: black;
-    margin-top: 5px;
-}
-img:first-line{
-    margin-left: 170px;
-}
-
+/*Customizes the placement of the images*/

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*No inside or outside spacing*/
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -9,18 +10,22 @@ ul{
     margin: 0;
     padding: 0;
 }
+/*Customizes the nav bar*/
 li{
     float: left;
 }
+/*Puts all the words on the nav bar next to eachother*/
 li a{
     text-decoration: none;
     color: white;
     padding: 14px 16px;
     display: block;
 }
+/*Customizes the words on the nav bar*/
 li a:hover{
     color: grey;
 }
+/*Changes the color of the words on the nav bar to grey when you hover over it*/
 .Content{
     margin-left: 300px;
     margin-right: 300px;
@@ -28,11 +33,13 @@ li a:hover{
     position: relative;
     text-align: center;
 }
+/*Customizes the heading of the page and text in which is my mission statement*/
 img{
     position: relative;
     left: 760px;
     bottom: 200px;
 }
+/*Customizes the place of the image*/
 .Content1{
     margin-left: 450px;
     margin-right: 450px;
@@ -41,6 +48,8 @@ img{
     top: 150px;
     font-size: 20px;
 }
+/*Customizes the problem and solution text on the About page*/
 body{
     background-color: rgb(255, 255, 255);
 }
+/*Changes the background color*/

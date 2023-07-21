@@ -5,10 +5,12 @@
     background-position: center;
     background-size: cover;
 }
+/*The background puts a background image on the page and the width and height customizes the size of the image and back position centers the image.*/
 *{
     margin: 0;
     padding: 0;
 }
+/*No inside spacing or outside spacing.*/
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -16,18 +18,22 @@ ul{
     margin: 0;
     padding: 0;
 }
+/*It customizes the nav bar*/
 li{
     float: left;
 }
+/*Puts all the words next to eachother*/
 li a{
     text-decoration: none;
     color: white;
     padding: 14px 16px;
     display: block;
 }
+/*It customizes the words on the nav bar*/
 li a:hover{
     color: grey;
 }
+/*When you hover over the words on the nav bar they turn grey*/
 h1{
     position: relative;
     display: flex;
@@ -37,7 +43,7 @@ h1{
     font-size: 80px;
     color: white;
 }
-
+/*Customizes the heading of the website*/
 p{
     position: relative;
     display: flex;
@@ -47,28 +53,4 @@ p{
     font-size: 20px;
     color: white;
 }
-.Products{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.Product{
-    width: 250px;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-}
-.Product img{
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-}
-.Product h2{
-    color: black;
-    margin-top: 10px;
-}
-.Product p{
-    color: black;
-    margin-top: 5px;
-}
+/*Customizes the slogan on the website*/

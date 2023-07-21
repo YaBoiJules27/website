@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*No outside or inside spacing*/
 .Me img{
     color: aliceblue;
     position: relative;
@@ -10,15 +11,18 @@
     margin: auto;
     display: flex;
 }
+/*Customizes the image on my Contact page*/
 p{ 
     text-align: center;
     color: rgb(255, 255, 255);
 }
+/*Customizes the text on my Contact page*/
 h1{
     text-align: center;
     color: rgb(255, 255, 255);
 
 }
+/*Customizes the heading on my Contact page*/
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -26,18 +30,23 @@ ul{
     margin: 0;
     padding: 0;
 }
+/*Customizes the nav bar*/
 li{
     float: left;
 }
+/*Puts all the words on the nav bar next to eachother*/
 li a{
     text-decoration: none;
     color: white;
     padding: 14px 16px;
     display: block;
 }
+/*Customizes the text on the nav bar*/
 li a:hover{
     color: grey;
 }
+/*Changes the color of the words on the nav bar to grey when you hover over it*/
 body{
     background-color: black;
 }
+/*Changes the background color*/
